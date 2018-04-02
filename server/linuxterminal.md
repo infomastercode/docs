@@ -156,7 +156,7 @@
 ## thanks [link](https://www.youtube.com/watch?v=RE2PLyFqCzE)
 
 create a new user
-> adduser [myuser]
+> adduser [myuser] (U & P univac)
 
 check to make sure they were added
 > id [myuser]
@@ -167,8 +167,15 @@ Add the user to the sudo group
 Login as that as user
 > sudo su - [myuser]
 
+Logout as user
+> exit
 
 
+### ติดตั้ง nodejs
+Thanks [link](https://nodejs.org/en/download/package-manager/)
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 
 
