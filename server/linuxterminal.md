@@ -153,6 +153,7 @@
 > uptime
 
 ## create new user
+## thanks [link](https://www.youtube.com/watch?v=RE2PLyFqCzE)
 
 create a new user
 > adduser [myuser]
