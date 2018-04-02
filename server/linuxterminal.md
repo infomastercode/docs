@@ -3,7 +3,7 @@
 ### แสดงข้อมูลของระบบและ Kernel
 
 ใช้สำหรับแสดงรายละเอียดทั้งหมดของระบบ
-> uname -i , uname
+> uname -i , uname, uname -a
 
 ใช้สำหรับแสดงจำนวนพื้นที่ฮาดดิสท์
 > df
@@ -149,9 +149,22 @@
 ดาวน์โหลดไฟล์ ตามที่ระบุใน url_file (แตกต่างจาก wget เล็กน้อย)
 > curl url_file
 
+ดูเวลาที่ user ใช้
+> uptime
 
+## create new user
 
+create a new user
+> adduser [myuser]
 
+check to make sure they were added
+> id [myuser]
+
+Add the user to the sudo group
+> usermod -aG sudo [myuser]
+
+Login as that as user
+> sudo su - [myuser]
 
 
 
