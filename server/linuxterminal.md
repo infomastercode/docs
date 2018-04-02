@@ -33,3 +33,68 @@
 
 ปิดโปรเซสของโปรแกรม name
 > killall name
+
+### การจัดการโฟลเดอร์
+
+คำสั่งเปลี่ยน directory
+> cd
+
+เปลี่ยน directory ไปที่ root
+> cd /
+
+ใช้สำหรับแสดง directory ปัจจุบัน
+> pwd
+
+ใช้สำหรับก็อปปี้ ไฟล์/โฟลเดอร์
+> cp
+
+ใช้สำหรับสร้างโฟลเดอร์
+> mkdir folder1
+
+ลบโฟลเดอร์ folder1 (เฉพาะfolder ที่ไม่มีไฟล์ข้างใน)
+> rmdir folder1
+
+ลบโฟลเดอร์ folder1 และไฟล์ข้างในทั้งหมด
+> rm -R folder1
+
+### การจัดการไฟล์
+
+สร้างไฟล์ file1.txt
+> touch file1.txt
+
+แสดงนามสกุลของ file1
+> file file1
+
+แสดงรายละเอียดข้างใน file1.txt
+> cat file1.txt
+
+เหมือนคำสั่ง cat แต่ต่างกันที่ สามารถเลื่อน scroll bar ได้
+> less file1.txt
+
+ก็อปปี้ file1 และสร้าง file2
+> cp file1 file2
+
+ลบ file1
+> rm file1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
