@@ -100,6 +100,90 @@
 แสดงรายชื่อ แบบมีไฮไลท์สี
 > ls --color
 
+### การจัดการ Package
+
+ทำการ update รายชื่อpackage ใน lists (เหมือนกับการ check update)
+> sudo apt-get update
+
+ทำการ upgrade โปรแกรม ที่มีเวอร์ชั่นใหม่ ให้อัพเดท
+> sudo apt-get upgrade
+
+ติดตั้งโปรแกรม
+> sudo apt-get install packagename
+
+สำหรับแก้ไข package ที่มีปัญหา กรณีเกิด “unmet dependences”
+> sudo apt-get -f install
+
+ลบ package ชื่อname
+> sudo apt-get remove name
+
+เหมือนกับ remove แต่จะลบ ไฟล์คอนฟิคด้วย
+> sudo apt-get purge name
+
+เพิ่ม repository (ต้องลง python-software-properties ก่อน)
+> sudo add-apt-repository ppa:name
+
+### การจัดการ File Permission
+
+เปลี่ยนโหมดไฟล์เป็น 775
+> chmod 775 file1
+
+เปลี่ยน folder1 เป็น 777
+> chmod 777 folder1
+
+เปลี่ยนสิทธิ์การเข้าถึงของ file1
+> chown user:group file1
+
+### อื่นๆ
+
+แสดงรายละเอียด network
+> ifconfig
+
+ใช้สำหรับเปิด file manager (sudo เพื่อเปิดในฐานะ root)
+> nautilus 
+> sudo nautilus
+
+ดาวน์โหลดไฟล์ ตามที่ระบุใน url_file
+> wget url_file
+
+ดาวน์โหลดไฟล์ ตามที่ระบุใน url_file (แตกต่างจาก wget เล็กน้อย)
+> curl url_file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
