@@ -14,3 +14,9 @@ number list
 bullet points
 * start
 * eart
+
+Alternatively
+- a
+- b
+  - c
+  - d
