@@ -9,4 +9,8 @@ number list
 
 1. One
 2. Two
-3.Three
+3. Three
+
+bullet points
+* start
+* eart
