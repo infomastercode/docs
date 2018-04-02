@@ -1,4 +1,4 @@
-### Link 1 [link](https://devahoy.com/posts/basic-command-line-ubuntu/)
+### Thanks link 1 [link](https://devahoy.com/posts/basic-command-line-ubuntu/)
 
 ### แสดงข้อมูลของระบบและ Kernel
 
@@ -20,3 +20,16 @@
 แสดงรายละเอียด linux ที่ใช้ เวอร์ชั่น และ โค๊ดเนม
 > lsb_release -a
 
+### การจัดการ Process
+
+แสดง process ที่กำลังทำงานอยู่
+> ps aux
+
+แสดงรายละเอียดโปรเซสของ firefox grep คือ regular expression โดยค้นหาโปรเซสชื่อ firefox
+> ps aux | grep firefox
+
+ปิดโปรเซส ตามไอดีที่ระบุ (ไอดีดูได้จาก ps aux)
+> kill -9 pid
+
+ปิดโปรเซสของโปรแกรม name
+> killall name
